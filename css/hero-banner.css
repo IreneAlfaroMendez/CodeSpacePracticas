@@ -1,5 +1,5 @@
 .hero-banner {
-    background-image: url(../images/hero-banner-2.jpg);
+    background-image: url("../images/hero-banner-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,16 +9,22 @@
 }
 
 .hero-banner-content{
-padding: 200px 0;
-max-width: 667px;
+  padding: 200px 0;
+  max-width: 667px;
+  text-align: center;
 
 }
 .hero-banner-title{
     font-size: 100px;
     margin-bottom: 32px;
+    color: #474747;
 }
 .hero-banner-description{
     font-size: 20px;
     margin-bottom: 40px;
 }
-   
+   .hero-banner-button{
+       display: flex;
+       gap:16px;
+       justify-content: center;
+   }

@@ -19,8 +19,15 @@
     gap: 24px;  
 }
 
-/*  display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 32px;
+.our-menu-card {
+    background-color: var(--color-white);
+    padding: 37px 34px 30px;
+    border-radius: 12px;       
+    display: flex; 
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+
+    
+
 }
-   

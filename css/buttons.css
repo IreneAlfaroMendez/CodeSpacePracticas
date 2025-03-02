@@ -10,8 +10,16 @@
     padding: 20px 33px;
 }
 
+
 .button-red{
     border: 1.5px solid #AD343E;
     background-color: #AD343E;
     color: white;
+}
+
+.button button-xl{
+    :hover{
+        background-color: #AD343E;
+        color: white;
+    }   
 }

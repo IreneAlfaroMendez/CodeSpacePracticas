@@ -1,0 +1,26 @@
+.our-menu{
+    padding-block: 106px;
+    max-width: 81rem;
+    margin: 0 auto;
+
+}
+
+
+.our-menu-title{
+    font-size: 55px;
+    color: var(--color-font);
+    text-align: center;
+    margin-block-end: 64px;
+    font-weight: 500;
+}
+.our-menu-cards{
+    display: flex;
+    align-items:center;
+    gap: 24px;  
+}
+
+/*  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+}
+   

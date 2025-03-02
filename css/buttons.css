@@ -17,9 +17,9 @@
     color: white;
 }
 
-.button button-xl{
-    :hover{
-        background-color: #AD343E;
-        color: white;
-    }   
+.button.button-xl:hover{
+    background-color: #AD343E;
+    color: white;
+    border-color: #AD343E;
 }
+
